@@ -18,8 +18,19 @@ body{
 }
 
 #color-button{
-    border: 1px solid black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: none;
     background-color: black;
     color: white;
-    padding: 5px 10px;
+    padding: 7px 10px;
+}
+
+#color-button:hover{
+    cursor: pointer;
+    background-color: #111;
+}
+
+#color-button:active{
+    background-color: #2b2b2b;
+    color: #fff;
 }
